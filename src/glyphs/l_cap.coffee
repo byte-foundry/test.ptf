@@ -25,7 +25,6 @@ exports.glyphs['L'] =
 		1:
 			skeleton: false
 			closed: true
-			lateReverse: true
 			nodes:
 				0:
 					x: 0
@@ -44,6 +43,6 @@ exports.glyphs['L'] =
 					y: 400
 					typeOut: 'line'
 			transforms: Array(
-				[ 'translate', 200, 200 ]
+				[ 'rotate', '45deg' ]
 			)
 			transformOrigin: Array( 200, 200 )

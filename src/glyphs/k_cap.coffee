@@ -13,8 +13,8 @@ exports.glyphs['K'] =
 				0:
 					x: 404
 					y: xHeight * ( 365 / 500 )
-					# dirOut: 106 + 'deg'
-					# tensionOut: 1.2
+					dirOut: 106 + 'deg'
+					tensionOut: 1.2
 					expand: Object({
 						width: thickness * ( 94 / 86 )
 						angle: 10 + 'deg'
@@ -23,8 +23,8 @@ exports.glyphs['K'] =
 				1:
 					x: 295
 					y: xHeight
-					# dirOut: 180 + 'deg'
-					# type: 'smooth'
+					dirOut: 180 + 'deg'
+					type: 'smooth'
 					expand: Object({
 						width: ( thickness + 20 ) * ( 20 / 86 )
 						angle: - 104 + 180 + 'deg'
@@ -33,8 +33,8 @@ exports.glyphs['K'] =
 				2:
 					x: 45
 					y: xHeight * ( 240 / 500 )
-					# dirOut: 90 + 'deg'
-					# type: 'smooth'
+					dirOut: 90 + 'deg'
+					type: 'smooth'
 					expand: Object({
 						width: thickness * ( 96 / 86 )
 						angle: 21 + 180 + 'deg'
@@ -81,8 +81,3 @@ exports.glyphs['K'] =
 		# 				width: thickness * ( 25 / 86 )
 		# 				distr: 0
 		# 			})
-
-
-
-
-

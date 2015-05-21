@@ -40,6 +40,16 @@ function jsufonify(prefixText) {
 			}
 			delete glyph.anchors;
 
+			// glyph.parameters -> glyph.anchor
+			if ( glyph.parameters ) {
+				glyph.parameter = {};
+
+				_(glyph.parameters).forEach(function( parameter, i ) {
+					glyph.parameter[i] = parameter;
+				});
+			}
+			delete glyph.parameters;
+
 			if ( !glyph.outline ) {
 				glyph.outline = {};
 			}
@@ -74,6 +84,13 @@ function jsufonify(prefixText) {
 					component.anchor[i] = anchor;
 				});
 				delete component.parentAnchors;
+
+				component.parameter = {};
+
+				_(component.parentParameters).forEach(function( parameter, i ) {
+					component.parameter[i] = parameter;
+				});
+				delete component.parentParameters;
 			});
 			delete glyph.components;
 
