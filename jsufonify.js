@@ -98,6 +98,7 @@ function jsufonify(prefixText) {
 				glyph.lib = {};
 			}
 			// glyph.transform -> glyph.outline.transform
+			// Probably not used at all!
 			if ( glyph.transformList ) {
 				glyph.lib = {
 					transformList: glyph.transformList

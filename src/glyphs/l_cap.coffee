@@ -43,6 +43,6 @@ exports.glyphs['L'] =
 					y: 400
 					typeOut: 'line'
 			transforms: Array(
-				[ 'rotate', '45deg' ]
+				[ 'skewX', '45deg' ]
 			)
 			transformOrigin: Array( 200, 200 )

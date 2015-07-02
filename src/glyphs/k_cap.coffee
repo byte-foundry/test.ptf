@@ -1,6 +1,9 @@
 exports.glyphs['K'] =
 	unicode: 'K'
 	# advanceWidth: width * 480 + thickness * 2 - ( 86 * 2 )
+	transforms: Array(
+		[ 'skewX', '45deg' ]
+	)
 	anchors:
 		0:
 			x: 0
