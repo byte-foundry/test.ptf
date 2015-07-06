@@ -1,8 +1,6 @@
 exports.lib =
 	parameters:
-		capHeight: xHeight + capDelta
-		contrast: _contrast * -1
-		ascenderHeight: xHeight + ascender
+		biz: xHeight * 2
 	transforms: Array(
 		[ 'skewX', 12 + 'deg' ]
 	)

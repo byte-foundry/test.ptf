@@ -2,7 +2,7 @@ exports.glyphs['R-comp'] =
 	name: 'R-comp'
 	parameters:
 		baz: xHeight + 3
-		biz: 20
+		biz: biz * 2
 		_xHeight: xHeight + 4
 	contours:
 		0:
