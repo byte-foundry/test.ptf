@@ -2,7 +2,8 @@ exports.glyphs['R-comp'] =
 	name: 'R-comp'
 	parameters:
 		baz: xHeight + 3
-		xHeight: xHeight + 4
+		biz: 20
+		_xHeight: xHeight + 4
 	contours:
 		0:
 			closed: false
@@ -13,4 +14,7 @@ exports.glyphs['R-comp'] =
 					angle: bar
 				1:
 					x: baz
+					y: _xHeight
+				2:
+					x: biz
 					y: xHeight
